@@ -104,7 +104,7 @@ body{
   line-height: 30px;
   justify-content: space-between;
 }
-.t2_r button{
+.t2_r > a{
   width: 115px;
   height: 40px;
 
@@ -115,8 +115,11 @@ body{
 
   color: #fff;
   cursor: pointer;
-
   font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .t2_r label{
   font-size: 12px;
