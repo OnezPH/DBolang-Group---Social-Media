@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-style: none;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.c1{
+  width: 800px;
+  height: 480px;
+  margin: 120px auto;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left{
+  width: 58%;
+  height: 100%;
+  display: block;
+  background-color: #8D39EC;
+}
+.logo{
+  display: inline-flex;
+  margin: 20px 0 0 20px;
+}
+.logo_png{
+  width: 30px;
+  margin: 0 10px 0 0;
+}
+.logo_text{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.t1{
+  margin: 40px 0 0 20px;
+}
+.t1 p{
+  color: white;
+  font-size: 12px;
+}
+.t1 h1{
+  color: white;
+}
+.img_c1{
+  margin: 70px 0 0 80px;
+}
+.img_c1 img{
+  width: 300px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.right .r-con{
+  text-align: center;
+}
+.r-con > h2{color: #8D39EC;}
+.r-con > p{
+  font-size: 12px;
+  color: rgb(166, 166, 166);
+  margin-bottom: 10px;
+}
+.fname-lname{display: flex;}
+.fname-lname div{
+  width: 165px;
+  height: 40px;
+  margin: 0 5px;
+}
+.fname-lname div input, .field input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+  padding: 0 0 0 10px;
+  background: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #8D39EC;
+}
+.field input:focus{
+  border: 2px solid #8D39EC;
+  color: #8D39EC;
+}
+.field{
+  width: 340px;
+  height: 40px;
+  margin: 10px 5px;
+}
+.gender-3{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.gender-3 div{
+  width: 100%;
+  margin: 0 5px;
+  border: 1px solid rgb(182, 182, 182);
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(126, 126, 126);
+}
+.terms-conditions{width: 340px;}
+.terms-conditions input{width: 10px;}
+.terms-conditions label{
+  font-size: 12px;
+  color: rgb(166, 166, 166);
+}
+.terms-conditions label span{color: #8D39EC;}
+.signup{
+  width: 200px;
+  height: 40px;
+
+  outline: none;
+  border: none;
+  background: #8D39EC;
+  border-radius: 5px;
+
+  margin: 5px;
+  cursor: pointer;
+
+  font-size: 14px;
+  color: #fff;
+}
+.login{
+  font-size: 12px;
+  color: #8D39EC;
+}

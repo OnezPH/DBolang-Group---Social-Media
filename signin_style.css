@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-style: none;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.c1{
+  width: 800px;
+  height: 450px;
+  margin: 120px auto;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left{
+  width: 58%;
+  height: 100%;
+  display: block;
+  background-color: #8D39EC;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0 20px;
+}
+.logo_png{
+  width: 30px;
+  margin: 0 10px 0 0;
+}
+.logo_text{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.t1{
+  margin: 30px 0 0 20px;
+  padding: 0 10px 0 0;
+}
+.t1 p{
+  color: white;
+  font-size: 12px;
+}
+.t1 h1{
+  color: white;
+}
+.img_c1{
+  margin: 20px 0 0 80px;
+}
+.img_c1 img{
+  width: 300px;
+}
+.right{
+  height: 100%;
+  padding: 80px 30px 0 30px;
+  justify-content: center;
+  align-items: center;
+}
+.t1_r span, p{
+  font-size: 12px;
+  color: rgb(166, 166, 166);
+}
+.t1_r a{
+  font-size: 12px;
+  color: #8D39EC;
+}
+.t1_r h2{
+  color: #8D39EC;
+}
+.field{
+  width: 270px;
+  height: 40px;
+  margin: 10px 0;
+}
+.user input, .pass input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+  padding: 0 0 0 10px;
+  background: none;
+  font-size: 15px;
+  color: #8D39EC;
+}
+.user input:focus{
+  border: 2px solid #8D39EC;
+  color: #8D39EC;
+}
+.pass input:focus{
+  border: 2px solid #8D39EC;
+  color: #8D39EC;
+}
+.t2_r{
+  display: flex;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  line-height: 30px;
+  justify-content: space-between;
+}
+.t2_r button{
+  width: 115px;
+  height: 40px;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #8D39EC;
+
+
+  color: #fff;
+  cursor: pointer;
+
+  font-size: 14px;
+}
+.t2_r label{
+  font-size: 12px;
+  color: rgb(166, 166, 166);
+}
+.t2_r input{
+  width: 12px;
+  margin: 8px 0;
+}
+.right .fpass{
+  font-size: 12px;
+  margin: 0 0 0 70px;
+  color: #8D39EC;
+}
